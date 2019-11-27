@@ -1,0 +1,10 @@
+.boton{
+    box-sizing:border-box;
+    width: 23%;
+    height: 16%;
+    margin: 1%;
+    font-size: xx-large;
+    background: gray;
+    color:white
+
+}

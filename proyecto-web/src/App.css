@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.calcLot{
+
+  width: 640px;
+  height: 640px;
+  display: flex;
+  position: relative;
+  left:calc(50% - 320px);
+  top:calc(50% - 320px);
+  flex-wrap:wrap;
+  border-radius: 1%;
+  background: #202020;
+}
+
+.textCalc{
+  position: relative;
+  height: 20%;
+  width: 95%;
+  left: calc(50% - 48.75%);
+  top:1%;
+  text-align: right;
+  border-radius: 20%;
+  background: #306230;
+  border-color:#A0A0A0;
+  border:1% solid #A0A0A0;
+  font-size: xxx-large;
+  padding:1%;
+  font-weight: bolder;
+}
